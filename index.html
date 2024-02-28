@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculum.html">Currriculo</a>
+        </nav>
     </header>
     <main class="apresentacao">
 
@@ -23,19 +27,29 @@
             </p>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Acesse minhas Redes</h2>
-                <a href="https://www.instagram.com/" class="apresentacao__links__link">
-                    Instagran
-                </a>
-                <a href="https://github.com/" class="apresentacao__links__link">
+                
+                <a href="https://github.com/limamateus" class="apresentacao__links__link">
+                    <img src="./assets/github.png" alt="imagem do Guithub"/>
                     GuitHub
+                </a>
+                <a href="https://www.linkedin.com/in/mateus-lima-169b94138" class="apresentacao__links__link">                   
+                    <img src="./assets/instagram.png" alt="imagem do linkedin"/>
+                    Linkedin
+                </a>
+                <a href="https://www.instagram.com/" class="apresentacao__links__link">
+                    
+                    <img src="./assets/instagram.png" alt=" imagem do GuitHub"/>
+                    Instagran
                 </a>
             </div>
 
         </section>
-        <img src="PerfilMateus.jpg" alt="imagem qualquer"  class="apresentacao__img"/>
+        <img src="./assets/PerfilMateus.png" alt="imagem qualquer" />
     </main>
-    <footer>
 
+    
+    <footer class="rodape">
+            <p>Desenvovidor por Mateus no curso do Alura</p>
     </footer>
 </body>
 
