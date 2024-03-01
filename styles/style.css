@@ -123,8 +123,12 @@ body {
 
 
 @media (max-width: 1000px) {
+
+    
     body{
         background-color: #884A39;
+        height: auto;
+        width: auto;
     }
     .cabecalho {
         padding: 10%;
@@ -139,11 +143,11 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 10%;
     }
 
     .apresentacao__conteudo{
-        width: auto;
+        width: auto;      
        
     }
 
@@ -158,4 +162,15 @@ body {
         font-size: 0.75rem;
         font-family: 'Montserrat', sans-serif;
     }
+
+   
+}
+
+
+@media (max-width: 770px){
+    .apresentacao {
+      
+        padding: 5% 5% 80% 5%;
+    }
+
 }
